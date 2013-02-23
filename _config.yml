@@ -4,3 +4,4 @@ server: true
 auto: true
 future: false
 permalink: pretty
+analytics: UA-38733561-1 # better change this if you fork, yo
