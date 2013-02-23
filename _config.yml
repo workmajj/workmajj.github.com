@@ -1,0 +1,6 @@
+markdown: rdiscount
+pygments: true
+server: true
+auto: true
+future: false
+permalink: pretty
