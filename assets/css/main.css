@@ -25,12 +25,20 @@ h1 {
     padding: 1.2em 0.5em 0.3em 0.5em;
 }
 
-.line { border-top: 1px solid #35322F; }
+.line {
+    border-top: 1px solid #35322F;
+}
 
 ul {
     margin: 10px 0;
     padding: 0;
     list-style-type: none;
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 li {
@@ -53,5 +61,3 @@ a:hover {
     background-color: #35322F;
     text-decoration: underline;
 }
-
-.clearfix { clear: both; }
