@@ -2,7 +2,7 @@ body {
     background-color: #FAFAFA;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
-    letter-spacing: -0.1em;
+    letter-spacing: -1px;
 }
 
 #wrapper {
@@ -19,10 +19,10 @@ body {
 h1 {
     color: #FAFAFA;
     background-color: #35322F;
-    font-size: 3em;
+    font-size: 48px;
     font-weight: normal;
     margin: 0 10px 10px 10px;
-    padding: 1.2em 0.5em 0.3em 0.5em;
+    padding: 58px 24px 14px 24px;
 }
 
 .line {
@@ -50,9 +50,9 @@ li {
 a {
     display: block;
     color: #35322F;
-    font-size: 3em;
+    font-size: 48px;
     margin: 0;
-    padding: 0.2em 0.5em 0.3em 0.5em;
+    padding: 10px 24px 14px 24px;
     text-transform: lowercase;
     text-decoration: none;
 }
