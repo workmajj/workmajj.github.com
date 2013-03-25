@@ -33,15 +33,19 @@ h1 {
     padding: 58px 24px 14px 24px;
 }
 
-.line {
+.edge {
     background-color: #FAFAFA;
+    margin: 0 -1px;
 }
-.line:nth-of-type(odd) {
+
+.line-top {
     border-bottom: 1px solid #35322F;
+    margin: 0 1px;
     padding: 12px 0 0 0;
 }
-.line:nth-of-type(even) {
+.line-bottom {
     border-top: 1px solid #35322F;
+    margin: 0 1px;
     padding: 0 0 12px 0;
 }
 
