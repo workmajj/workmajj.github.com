@@ -8,14 +8,12 @@ body {
     font-size: 16px;
     height: 100%;
     letter-spacing: -1px;
-
 }
 
 #wrapper {
     height: 100%;
     margin: 0 auto;
     width: 832px;
-
 }
 
 #content {
@@ -23,7 +21,6 @@ body {
     height: 100%;
     margin: 0 auto;
     width: 784px;
-
 }
 
 h1 {
@@ -33,7 +30,6 @@ h1 {
     font-weight: normal;
     margin: 0;
     padding: 58px 24px 14px 24px;
-
 }
 
 .line {
@@ -52,15 +48,16 @@ h1 {
     clear: both;
     content: "";
     display: table;
-
 }
 
 ul {
     background-color: #FAFAFA;
+    left: -12px;
     list-style-type: none;
-    margin: 0;
+    margin: 0 12px;
     padding: 12px 0;
-
+    position: relative;
+    width: 784px;
 }
 
 li {
@@ -82,7 +79,6 @@ a {
     padding: 10px 24px 14px 24px;
     text-decoration: none;
     text-transform: lowercase;
-
 }
 a:hover {
     background-color: #35322F;
