@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: #FAFAFA;
+    background-color: rgb(233, 231, 232);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     height: 100%;
@@ -17,7 +17,7 @@ body {
 }
 
 #content {
-    background-color: #35322F;
+    background-color: rgb(68, 71, 69);
     height: 100%;
     margin: 0 auto;
     min-height: 527px;
@@ -25,8 +25,8 @@ body {
 }
 
 h1 {
-    background-color: #35322F;
-    color: #FAFAFA;
+    background-color: rgb(68, 71, 69);
+    color: rgb(233, 231, 232);
     font-size: 48px;
     font-weight: normal;
     margin: 0;
@@ -34,21 +34,19 @@ h1 {
 }
 
 .edge {
-    background-color: #FAFAFA;
+    background-color: rgb(233, 231, 232);
     margin: 0 -1px;
 }
-
 .line-top {
-    border-bottom: 1px solid #35322F;
+    border-bottom: 1px solid rgb(68, 71, 69);
     margin: 0 1px;
     padding: 12px 0 0 0;
 }
 .line-bottom {
-    border-top: 1px solid #35322F;
+    border-top: 1px solid rgb(68, 71, 69);
     margin: 0 1px;
     padding: 0 0 12px 0;
 }
-
 .group:after {
     clear: both;
     content: "";
@@ -56,12 +54,11 @@ h1 {
 }
 
 ul {
-    background-color: #FAFAFA;
+    background-color: rgb(233, 231, 232);
     list-style-type: none;
     margin: 0 -1px;
     padding: 12px 0;
 }
-
 li {
     float: left;
     width: 380px;
@@ -74,7 +71,7 @@ li:nth-child(even) {
 }
 
 a {
-    color: #35322F;
+    color: rgb(68, 71, 69);
     display: block;
     font-size: 48px;
     margin: 0;
@@ -83,7 +80,7 @@ a {
     text-transform: lowercase;
 }
 a:hover {
-    background-color: #35322F;
-    color: #FAFAFA;
+    background-color: rgb(68, 71, 69);
+    color: rgb(233, 231, 232);
     text-decoration: underline;
 }
